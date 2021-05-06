@@ -39,6 +39,7 @@ public class Application {
         } );
 
 
+
         //Mostra tutti utenti
         get("/users", (request, response) ->
                 gson.toJson(users.values()));
